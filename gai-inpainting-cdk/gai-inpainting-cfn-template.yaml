@@ -87,7 +87,7 @@ Resources:
         Fn::GetAtt:
           - CustomS3AutoDeleteObjectsCustomResourceProviderRole
           - Arn
-      Runtime: nodejs14.x
+      Runtime: nodejs20.x
       Description:
         Fn::Join:
           - ""
